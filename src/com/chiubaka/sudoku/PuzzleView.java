@@ -199,6 +199,7 @@ public class PuzzleView extends View {
 		} else {
 			// Number is not valid for this tile
 			Log.d(TAG, "setSelectedTile: invalid: " + tile);
+			startAnimation(AnimationUtils.loadAnimation(game,  R.anim.shake));
 		}
 	}
 }
