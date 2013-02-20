@@ -23,7 +23,6 @@ public class Prefs extends PreferenceActivity {
 		return PreferenceManager.getDefaultSharedPreferences(context).getBoolean(OPT_MUSIC, OPT_MUSIC_DEF);
 	}
 	
-	// fuck
 	/** Get the current value of the hints option */
 	public static boolean getHints(Context context) {
 		return PreferenceManager.getDefaultSharedPreferences(context).getBoolean(OPT_HINTS, OPT_HINTS_DEF);
